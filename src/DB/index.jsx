@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 async function dataBase(){
-    mongoose.connect("mongodb://localhost:27017/TODO_list")
+    mongoose.connect("mongodb+srv://Bharani_Rayudu:Bharani@cluster0.bsh0jfz.mongodb.net/TODO_list?retryWrites=true&w=majority&appName=Cluster0")
     .then(()=>{
         console.log("database connected");
     })
